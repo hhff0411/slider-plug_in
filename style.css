@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+.sliderBox{
+    width: 1366px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+    position: relative;
+}
+.slider{
+    width: 5464px;
+    height: auto;
+    position: relative;
+}
+.slider li{
+    width: 1366px;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.slider img{
+    width: 100%;
+    float: left;
+}
+.spotsBox{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    text-align: center;
+}
+.spotsBox a{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    background: #ededed;
+    border-radius: 50%;
+}
+.spotsBox a.active{
+    width: 20px;
+    border-radius: 40%;
+    background: #c0c0c0;
+}
+#outer{
+    margin: 0 auto;
+}
