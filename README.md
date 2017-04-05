@@ -1,5 +1,5 @@
 # slider plug-in
-<h3>左右滑动的自适应、多样式全能插件。多次调用时只需传入最外层盒子ID即可。</h3>
+<h3>左右滑动的自适应、多样式全能插件。多次调用时只需传入最外层盒子ID即可。兼容IE8+、FF、chrome等主流浏览器</h3>
 <h4>1.根据html中的Dom结构引入图片。</h4>
 <h4>2.引入css和js文件</h4>
 <h4>3.调用pomeloSlider.doslide(obj)</h4>
